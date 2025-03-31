@@ -39,7 +39,7 @@ if __name__ == "__main__":
     latent_dim = 100
     batch_size = 128
     epochs = 300
-    generator = train_cgan(
+    generator = train_cg(
         X_train, y_train, latent_dim=latent_dim, batch_size=batch_size, epochs=epochs
     )
 
